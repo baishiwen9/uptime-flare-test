@@ -3,8 +3,8 @@ const pageConfig = {
   title: "uptime-flare-test 状态监控",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://kachishop.com', label: 'kachishop' },
-    { link: 'https://searchafind.com', label: 'AFS' },
+    // { link: 'https://kachishop.com', label: 'kachishop' },
+    // { link: 'https://searchafind.com', label: 'AFS' },
     { link: 'mailto:baishiwen9@gmail.com', label: 'Email Me', highlight: true },
   ],
 }
@@ -21,21 +21,23 @@ const workerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'ks_http_monitor',
       // `name` is used at status page and callback message
-      name: 'kachishop',
+      name: 'kachishop-请求响应耗时',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
       target: 'https://www.kachishop.com',
+      statusPageLink: 'https://www.kachishop.com',
     },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'afs_http_monitor',
       // `name` is used at status page and callback message
-      name: 'AFS',
+      name: 'AFS-请求响应耗时',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
       target: 'https://searchafind.com',
+      statusPageLink: 'https://searchafind.com',
     },
   ],
   notification: {
