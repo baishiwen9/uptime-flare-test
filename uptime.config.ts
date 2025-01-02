@@ -1,6 +1,6 @@
 const pageConfig = {
   // 页面标题
-  title: "uptime-flare-test Status Page",
+  title: "uptime-flare-test 状态监控",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://kachishop.com', label: 'kachishop' },
