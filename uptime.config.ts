@@ -1,5 +1,5 @@
 const pageConfig = {
-  // Title for your status page
+  // 页面标题
   title: "uptime-flare-test Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
