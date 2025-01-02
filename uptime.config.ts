@@ -19,7 +19,7 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'foo_monitor',
+      id: 'ks_http_monitor',
       // `name` is used at status page and callback message
       name: 'kachishop',
       // `method` should be a valid HTTP Method
@@ -29,7 +29,7 @@ const workerConfig = {
     },
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'foo_monitor',
+      id: 'afs_http_monitor',
       // `name` is used at status page and callback message
       name: 'AFS',
       // `method` should be a valid HTTP Method
