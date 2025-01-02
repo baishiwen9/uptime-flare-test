@@ -1,11 +1,11 @@
 const pageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "uptime-flare-test Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
+    { link: 'https://kachishop.com', label: 'kachishop' },
+    { link: 'https://searchafind.com', label: 'AFS' },
+    { link: 'mailto:baishiwen9@gmail.com', label: 'Email Me', highlight: true },
   ],
 }
 
